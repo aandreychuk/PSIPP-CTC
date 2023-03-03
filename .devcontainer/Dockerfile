@@ -9,8 +9,8 @@ RUN apt-get install -y \
 
 # instal python3
 RUN apt-get install -y \
-    python3=3.8.2-0ubuntu2 \
-    python3-pip=20.0.2-5ubuntu1.6
+    python3.8 \
+    python3-pip
 
 # install python packages
 RUN python3 -m pip install \
